@@ -10,7 +10,7 @@ public class Bullet : MonoBehaviour
 
     private void Start()
     {
-        Destroy(gameObject, 15);
+        Destroy(gameObject, 7);
     }
 
     public void BulletMovement(GameObject firePoint)
